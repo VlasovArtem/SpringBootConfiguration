@@ -1,0 +1,23 @@
+gateway: 
+  ip: avlasov-mac
+
+token: 
+  expiration_time: 86400000
+  secret: jdfkdf3fw93uf9wfjdkf
+
+login: 
+  url: 
+    path: /api/users/login
+
+api: 
+  url:
+    path: 
+      login: /users-ws${login.url.path}
+      registration: /users-ws/api/users
+      h2console: /users-ws/h2-console 
+
+authorization: 
+  token: 
+    header: 
+      name: Authorization
+        prefix: Bearer 
