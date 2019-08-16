@@ -3,7 +3,7 @@ gateway:
 
 token: 
   expiration_time: 86400000
-  secret: wdfd83043fjd
+  secret: wdfd83043fjd555
 
 login: 
   url: 
