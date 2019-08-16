@@ -16,8 +16,8 @@ api:
       registration: /users-ws/api/users
       h2console: /users-ws/h2-console 
 
-authorization: 
-  token: 
-    header: 
+authorization:
+  token:
+    header:
       name: Authorization
-        prefix: Bearer 
+      name.prefix: Bearer
